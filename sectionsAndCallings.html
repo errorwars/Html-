@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>
+            Section within the web page.html<!--here we will learn how to divide sections within the page.-->
+        </title>
+    </head>
+    <body>
+        COMPUTER BASICS:
+        <ol>
+           <section id="h1"> <li><a href="#s1">PRIMARY MEMORY.</a></li></section>
+            
+            <section id ="h2"> <li><a href="#s2">RAM vs ROM</a></li></section>
+        
+            <li><a href="#s3">INTERNAL MEMORY</a></li>
+        
+        </ol>
+        <section style="background-color: cyan " id="s1"> <!--this is how we are adding color and giving id to our section-->
+            <h1>PRIMARY MEMORY  : -</h1>
+            <ul>
+                <li>It is also known as main memory of computer system.<br>
+                     Primary memory is used to store data and instructions of a program during computer operations. </li>
+                <li>It uses semiconductor technolgy and hence is called as semiconductor memory.</li><br>
+                <li>Primary memory is of two types :-</li><br>
+                <ol>
+                    <li><a href="#us1">RAM,SRAM,DRAM</a></li><br>
+                    <li><a href="#us2">ROM,PROM,EPROM,EEPROM</a></li><br>
+                </ol>
+                    <section id="us1">
+                        <h1>RAM:</h1>
+                        <ol>
+                            <li>It is a volatile memory.(VOlatile memory means IT stores information with power if power supply stops or interupt all data will be lost.)</li>
+                            <li>Ram is used to boosting up or to star the computer.</li>
+                            <li>It temperoraly stores data which has to be executed by the processor.</li>
+                            <li>IT further divided into two categories:-</li>
+                            <ul><li>S RAM (STATIC READ ONLY MEMORY)<br></li>
+                                <li>D RAM (DYNAMIC READ ONLY MEMORY)</li>
+                            </ul>
+                            <table border="10" color="red">
+                                <caption><h1>S RAM / D RAM</caption>
+                               <tr> <th>S RAM</th>
+                                    <th>D RAM</th>
+                               </tr>
+                            <tr>
+                                <td>S RAM has lower access time.</td>
+                                <td>D RAM is comperatively slower than S RAM,<br> so higher access time</td>
+                            </tr>
+                            <tr>
+                                <td>It is costlier</td>
+                                <td>It costs less than S RAM.</td>
+                            </tr>
+                            <tr>
+                                <td>It has transistors only so need continuous porer supply.</td>
+                                <td>Due to charged capacitor DRAM consumes comparitively less power.</td>
+                            </tr>
+                            <tr>
+                                <td>S RAM has low pacaging density.</td>
+                                <td>D RAM has high pacaging density.</td>
+                            </tr>
+
+                            </table>
+
+                        </ol>
+                    </section>
+                    <section id="us2">
+                        <h1>ROM(Random access memory.)</h1>
+                        <ol>
+                            <li>IT is a non volatile memory.<br>
+                                IT means it stores information even when the power supply is failed.</li>
+                            <li>Rom is used to store information i.e. used to operate system.</li>    
+                            <li>As name suggest READ ONLY , here we can only read data stored on it.</li>
+                            <li>Information stored in ROM is in binary format.<br>
+                            IT is also known as permanent memory.</li>
+                            <li>IT is of fourtypes:-</li>
+                            <ol>
+                                <li>M ROM(Masked ROM)</li>
+                                <li>P ROM(Programmable ROM)</li>
+                                <li>E PROM(Erasable Programmable ROM)</li>
+                                <li>E EPROM(Electrically Erasable Programmable ROM)</li>
+                            </ol>
+                            <table border="15">
+                                <caption><h1>Different ROMS.</h1></caption>
+                                <tr>
+                                    <th>MROM</th>
+                                    <th>PROM</th>
+                                    <th>EPROM</th>
+                                    <th>EEPROM</th>
+                                </tr>
+                                <tr>
+                                    <td>It stands for MASKED ROM</td>
+                                    <td>IT stands for Programmable ROM</td>
+                                    <td>It stands for Erasable Programmable ROM </td>
+                                    <td>It stands for Electrically Erasabple PROM</td>
+                                </tr>
+                                <tr>
+                                    <td>Hard wired devices with pre programmed data</td>
+                                    <td>This REad only memory is modifiable once<br>
+                                    USer purchase a PROM and then writes data or content and once written it cant be edited in Prom.</td>
+                                    <td>It is extension to PROM,here data can be erased by exposing the device in UV rays for nearly 40mins.</td>
+                                    <td>Here written content be erased and re write upto 10,000 times.</td>
+                                </tr>
+
+                            </table>
+                        </ol>
+                    </section>
+            </ul>
+
+            
+        </section>
+        <section style="background-color: pink " id="s2">
+            <h1>RAM VS ROM</h1>
+            <table border="10" >
+                <caption><h1>PRIMARM MEMORIES i.e RAM AND ROM.</caption>
+                <tr>
+                    <th>RAM</th>
+                    <th>ROM</th>
+                </tr>
+                <tr>
+                    <td>VOLATILE memory.</td>
+                    <td>NON VOLATILE memory.</td>
+                </tr>
+                <tr>
+                    <td>It requires flow of electricity.</td>
+                    <td>Data is stored even after no power supply.</td>
+                </tr>
+                <tr>
+                    <td>RAM is the memory for operating system programs to use when PC isrunning</td>
+                    <td>Rom is the memory that comes with PC that holds instruction to boost up computer. </td>
+                </tr>
+            </table>
+            <a href = "#h2">top</a>
+            
+        </section>
+        <section style="background-color :cornflowerblue"  id="s3">
+            <h1>INTERNAL MEMORY :</h1>
+            <ol>
+                <li>CAChe memory is example of internal memory.</li>
+                <li>CACHE memory is very high speed and special type of memory.</li>
+                <li>It is used to speed up and sycnhronize with high speed cpu.</li>
+                <li>It act as buffer b/w RAM and CPU.</li>
+                <li>It holds frequently requested data, so that immediately available for CPU when asked.</li>
+                <li>Cache memory is used to reduce average time to access data.</li>
+                <li>There are various different independent cache in CPU. </li>
+                <li>The performance of CACHE is measured in HIT RATIO.</li>
+                <li>If the processor needs to read or write a location it goes to cache.<br>
+                 If Cache finds the location for processor then CACHE HIT occurs,<br>
+                ELSE cache miss </li>
+                <li>THERE ARE TWO TYPES OF CACHE:-</li>
+                <ul>
+                    <li>PRIMARY CACHE:- It is located on Processor chip.It has the speed like of registers</li>
+                    <li>SECONDARY CACHE:- It is located somewhere b/w primary cache and rest all memory.It is reffered as level2(L2) cache.</li>
+                </ul>
+            </ol> 
+            <a href="#h1">top</a>
+            
+        </section>
+    </body>
+</html>
